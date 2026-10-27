@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 const starterTasks = [
-  { id: 1, text: "Learn React basics", completed: true },
-  { id: 2, text: "Build my first TODO app", completed: false },
-  { id: 3, text: "Deploy my app to GitHub", completed: false },
+  { id: 1, text: "Build my first TODO app", completed: true },
+  { id: 2, text: "Deploy my app to GitHub", completed: false },
+  { id: 3, text: "Running in github", completed: false },
 ];
 
 function Header({ remaining }) {
