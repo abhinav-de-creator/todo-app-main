@@ -1,16 +1,123 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ✅ TaskFlow — Todo App
 
-Currently, two official plugins are available:
+A simple and responsive Todo List application built using **React and Vite**. TaskFlow helps you organize your daily tasks, track your progress, and stay productive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🚀 **[Click here to use TaskFlow](https://abhinav-de-creator.github.io/todo-app-main/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ➕ Add new tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 🔍 Filter tasks by All, Active, and Completed
+- 🧹 Clear all completed tasks
+- 💾 Automatically save tasks using browser Local Storage
+- 📊 Track remaining tasks
+- 📅 Display the current date
+- 📱 Responsive and user-friendly interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **React** — User interface
+- **Vite** — Development server and build tool
+- **JavaScript** — Application logic
+- **HTML5** — Page structure
+- **CSS3** — Styling and layout
+- **Local Storage** — Save tasks in the browser
+
+## 🚀 Getting Started
+
+Follow these steps to run the project on your computer.
+
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/) before starting.
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/abhinav-de-creator/todo-app-main.git
+```
+
+**2. Navigate to the project folder**
+
+```bash
+cd todo-app-main
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+**5. Open the local URL**
+
+Open the URL shown in your terminal, usually `http://localhost:5173`.
+
+## 📦 Build for Production
+
+To create an optimized production build, run:
+
+```bash
+npm run build
+```
+
+To preview the production build locally, run:
+
+```bash
+npm run preview
+```
+
+## 📁 Project Structure
+
+```text
+todo-app-main/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## 💾 Data Storage
+
+TaskFlow uses browser Local Storage to save tasks. Your tasks remain available after refreshing the page in the same browser, but they are not automatically synchronized across different devices.
+
+## 🌍 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+- **GitHub Repository:** [View Source Code](https://github.com/abhinav-de-creator/todo-app-main)
+- **Live Website:** [Open TaskFlow](https://abhinav-de-creator.github.io/todo-app-main/)
+
+## 🤝 Contributing
+
+Suggestions and improvements are welcome! Feel free to fork this repository and contribute to the project.
+
+## 📄 License
+
+No license has been specified for this project yet.
+
+---
+
+**Made with ❤️ using React and Vite.**
